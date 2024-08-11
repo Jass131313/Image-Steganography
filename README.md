@@ -13,7 +13,6 @@ This project implements image steganography using Python with a graphical user i
   - [Decoding a Message](#decoding-a-message)
 - [Dependencies](#dependencies)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
@@ -58,22 +57,22 @@ python steganography.py
 This will launch the Tkinter GUI for the image steganography tool.
 
 ## Encoding a Message
-Start the Application: Click on the "Encode" button in the main menu.
-Select an Image: Choose the image in which you want to hide the message.
-Enter the Message: Input the text you wish to hide.
-Set a Password (Optional): Set a password to secure the hidden message.
-Save the Encoded Image: The modified image with the hidden message will be saved.
+- Start the Application: Click on the "Encode" button in the main menu.
+- Select an Image: Choose the image in which you want to hide the message.
+- Enter the Message: Input the text you wish to hide.
+- Set a Password (Optional): Set a password to secure the hidden message.
+- Save the Encoded Image: The modified image with the hidden message will be saved.
 
 ## Decoding a Message
-Start the Application: Click on the "Decode" button in the main menu.
-Select an Encoded Image: Choose the image that contains the hidden message.
-Enter the Password (if set): Provide the password used during encoding.
-Retrieve the Message: The hidden message will be displayed.
+- Start the Application: Click on the "Decode" button in the main menu.
+- Select an Encoded Image: Choose the image that contains the hidden message.
+- Enter the Password (if set): Provide the password used during encoding.
+- Retrieve the Message: The hidden message will be displayed.
 
 ## Dependencies
-Python 3.x
-Pillow: Used for image processing.
-Tkinter: Built-in Python module for creating GUI applications.
+- Python 3.x
+- Pillow: Used for image processing.
+- Tkinter: Built-in Python module for creating GUI applications.
 You can install the dependencies using:
 
 ```python
